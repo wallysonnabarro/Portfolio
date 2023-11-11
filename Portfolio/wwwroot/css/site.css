@@ -31,4 +31,31 @@ body {
 
 .a-link {
     color: var(--white);
+    text-decoration: none;
+}
+
+.div-aling-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem {
+    border-radius: 100%;
+    margin: 150px 0 50px 0;
+}
+
+.label {
+    color: var(--white);
+}
+
+.apresentacao-titulo {
+    font-size: 1.8em;
+    margin-top: 120px;
+    margin-left: 30px;
+}
+
+.apresentacao-texto {
+    margin-left: 30px;
+    font-size: 1.2em;
 }
