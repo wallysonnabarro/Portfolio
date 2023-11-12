@@ -6,8 +6,10 @@
 
 :root {
     --black: #000000;
-    --white: #ffffff;
+    --white: #fff;
     --verde-claro: #4cff00;
+    --roxa: #6f01bb;
+    --verde-mais-claro: #cbff75;
 }
 
 html {
@@ -31,15 +33,11 @@ body {
 }
 
 .a-link {
-    color: var(--white);
     text-decoration: none;
-    transition: transform 0.8s;
+    color: var(--verde-mais-claro);
 }
-
     .a-link:hover {
         color: var(--verde-claro);
-        font-size: 1.6em;
-        transition: transform 0.8s;
     }
 
 .div-aling-flex-center {
@@ -77,7 +75,7 @@ body {
     color: var(--white);
 }
 
-.card-flex{
+.card-flex {
     display: flex;
 }
 
@@ -109,4 +107,21 @@ body {
 
 .back {
     transform: rotateY(180deg);
+}
+
+.card-conhecimentos {
+    border: 1px dotted var(--roxa);
+    padding: 10px;
+}
+
+.child {
+    margin: 0 auto;
+}
+
+.display-center {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
 }
