@@ -38,9 +38,9 @@ body {
 
 .imagem {
     border-radius: 100%;
-    width: 280px;
+    width: 275px;
     height: 270px;
-    margin: 150px 0 50px 0;
+    margin: 150px 50px 50px 100px;
 }
 
 .label {
