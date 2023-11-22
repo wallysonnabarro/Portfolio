@@ -1,7 +1,7 @@
 ﻿@import url('https://fonts.googleapis.com/css2?family=KoHo:wght@200;300;400;500;600;700&family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700;6..12,800;6..12,900;6..12,1000&display=swap');
 
 * {
-    font-family: 'KoHo', 'Nunito+Sans', sans-serif;
+    font-family: 'KoHo', sans-serif;
 }
 
 :root {
@@ -12,10 +12,6 @@
     --verde-mais-claro: #cbff75;
 }
 
-html {
-    font-size: 14px;
-}
-
 @media (min-width: 768px) {
     html {
         font-size: 16px;
@@ -23,6 +19,7 @@ html {
 }
 
 html {
+    font-size: 14px;
     position: relative;
     min-height: 100%;
 }
@@ -32,13 +29,6 @@ body {
     background: linear-gradient(#101010, #323232);
 }
 
-.a-link {
-    text-decoration: none;
-    color: var(--verde-mais-claro);
-}
-    .a-link:hover {
-        color: var(--verde-claro);
-    }
 
 .div-aling-flex-center {
     display: flex;
@@ -127,3 +117,13 @@ body {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.div-aling-flex-center .a-link {
+    color: #fff;
+    font-size: 1.9em;
+    text-decoration: none;
+}
+
+    .div-aling-flex-center .a-link:hover {
+        color: var(--verde-claro);
+    }

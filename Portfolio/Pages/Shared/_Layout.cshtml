@@ -10,11 +10,10 @@
 </head>
 <body>
     <header>
-        <div class="container text-end mt-5">
+        <div class="container mt-5">
             <div class="div-aling-flex-center" id="topo">
-                <a class="a-link" href="#inicio">Início</a>
-                <a class="a-link ms-5" href="#projetos">Projetos</a>
-                <a class="a-link ms-5" href="#habilidades">Habilidades</a>
+                <a class="a-link" asp-area="habilidade" asp-page="/Index">Início</a>
+                <a class="a-link ms-5" asp-area="habilidade" asp-page="/Habilidades">Habilidades</a>
             </div>
         </div>
     </header>
@@ -26,7 +25,7 @@
 
     <footer class="border-top footer mt-md-5 text-muted">
         <div class="container text-center">
-            &copy; 2023 - Portfolio - <a class="a-link" href="#">Topo</a>
+            <span class="label">&copy; 2023 - Portfolio - </span><a class="a-link" style="color: #fff;" href="#">Topo</a>
         </div>
     </footer>
 
